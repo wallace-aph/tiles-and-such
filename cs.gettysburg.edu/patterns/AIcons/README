@@ -1,0 +1,67 @@
+
+desc/cl-bgnd/Textures   Desktop Textures Inclusion
+
+Geoff Adams <gadams@avernus.com> and  Stephen Krauth <phred@avernus.com>
+has kindly allowed the inclusion of this small part of the Desktop
+Textures, in the library. However please not that this is not the whole of
+that library but only parts which were donated to the AIcons Library.
+These are 128x128 color backgrounds which while a bit large for this
+collection are included as they are extremely useful, and great looking.
+
+These images are copyright and can not be included into any package
+without first contacting Geoff before hand.  He has provided a copyright
+notice which is included in this directory.
+
+WARNING: These images use a huge number of colors which can fill your
+color table completely. Thus leaving no colors available for other X window
+application.  As such before using them as a background pattern you may
+beed to reduce the number of colors they are using. Most of these pattern
+will still look good if you quantify the colors to say 24 or so.
+
+Anthony Thyssen  <anthony@cit.gu.edu.au>  http://www.cit.gu.edu.au/~anthony/
+
+----------------------------------------------------------------------
+From gadams@Glue.umd.edu Thu Dec 16 12:32:22 1993
+From: Geoff Adams <gadams@Glue.umd.edu>
+Date: Wed, 15 Dec 1993 21:35:51 -0500
+To: anthony@cit.gu.edu.au
+Cc: desktop-textures@avernus.com
+Subject: Anthony's X Icon Library
+
+Part of your package includes a number of our Desktop Textures.  Since
+we take pride in this product and hold a copyright on it, we have a
+request concerning your distribution of our work.
+
+I brought this up once before, and I appreciate your response at that
+time.  What you did at the time was include my name in your
+README.contrib file, which was better than nothing.  However, at least
+several people have found your icon library and used our textures in
+their products without even realizing that they were using
+distribution-restricted material.
+
+Our two restrictions are thus:
+
+	* We (Geoff Adams and Stephen Krauth) are fully credited as
+the creators of the textures, and our permission is granted for
+distribution.
+
+	* The textures do not wind up gracing the screens of Windows
+machines.
+
+Here at Glue, we keep the textures in a directory with a README file,
+which contains the information we wish to be distributed with the
+textures.  We would like you to include something similar in your
+distribution, *in the directory which contains the textures*, so I
+will include our README below.
+
+Thank you,
+
+Geoff Adams
+gadams@avernus.com
+President
+Avernus
+
+--- Included file README ---
+<see the COPYRIGHT file in this directory>
+--- End of included file ---
+

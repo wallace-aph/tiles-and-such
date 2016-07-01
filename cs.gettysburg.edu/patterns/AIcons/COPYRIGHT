@@ -1,0 +1,43 @@
+
+DESKTOP TEXTURES
+
+Desktop Textures is an on-going graphic arts/software project of Stephen
+Krauth and Geoff Adams, one of several such projects at Avernus.  The xpm
+files in this directory are derived from the textures we've created for
+display on the Macintosh desktop.  You can find the current release of the
+Desktop Textures distribution for the Macintosh on the Glue anonymous ftp
+site ftp.eng.umd.edu in the pub/avernus directory.  This is a MacBinary
+file.  If you prefer to transfer a BinHex file, you can find one on the
+Info Mac ftp site sumex-aim.stanford.edu.
+
+There are currently three complete volumes of textures and one 24-bit
+supplement.  This directory contains only some of them.  As time allows,
+we'll be filling this directory with the rest of the textures.
+
+You can display these patterns on your X display with your favourite
+bitmap/pixmap viewer, such as xv.  You can also set one of our textures to
+be your X root window background:
+
+* If you use tvtwm, you can set the VirtualDesktopBackgroundPixmap and
+  PannerBackgroundPixmap variables each to the filename of one of these
+  textures.
+
+* If you use another window manager, you can place a command in your
+  .xsession file that says something like:  "xloadimage -onroot filename".
+
+These images are not for use with the Microsoft Windows environment.  Using
+these patterns in a Windows environment consitutes a copyright violation.
+All other use and further distribution requires that we are credited with
+creation of the textures.  Obtain our permission prior to redistribution in
+any form other than this entire package as you find it here.
+
+You may reach the creators of these textures at the following address:
+
+                        desktop-textures@avernus.com
+
+Individually, we are:
+
+Geoff Adams : gadams@avernus.com        Stephen Krauth : phred@avernus.com
+
+All Textures Copyright (C) Avernus 1991, 1992, 1993.
+

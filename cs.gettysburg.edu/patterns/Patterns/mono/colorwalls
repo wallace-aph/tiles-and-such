@@ -1,0 +1,14 @@
+#!/bin/sh
+
+[ -z "$1" ] && exit 1
+color=$1
+perc=${2:-"40%"}
+
+cd $HOME/Pictures/Backgrounds
+for i in .monotiles/*; do
+	file="monotiles/$(basename "$i")"
+	cp -f "$i" $file
+	#flawed
+	convert $file -fill "$color" -colorize "$perc" $file
+done
+
