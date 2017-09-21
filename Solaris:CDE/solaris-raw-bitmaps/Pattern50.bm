@@ -1,0 +1,7 @@
+/*********************************************************************
+*  (c) Copyright 1993, 1994, 1995 Sun Microsystems, Inc.
+**********************************************************************/
+#define Pattern50_width 4
+#define Pattern50_height 4
+static unsigned char Pattern50_bits[] = {
+   0x05, 0x0a, 0x05, 0x0a};

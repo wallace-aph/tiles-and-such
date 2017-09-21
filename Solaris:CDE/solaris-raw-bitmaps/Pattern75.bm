@@ -1,0 +1,7 @@
+/*********************************************************************
+*  (c) Copyright 1993, 1994, 1995 Sun Microsystems, Inc.
+**********************************************************************/
+#define Pattern75_width 8
+#define Pattern75_height 8
+static unsigned char Pattern75_bits[] = {
+   0x77, 0xbb, 0xee, 0xdd, 0x77, 0xbb, 0xee, 0xdd};

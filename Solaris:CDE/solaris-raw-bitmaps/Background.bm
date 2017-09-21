@@ -1,0 +1,12 @@
+/*********************************************************************
+*  (c) Copyright 1990, 1993, 1994 Hewlett-Packard Company	
+*  (c) Copyright 1993, 1994 International Business Machines Corp.
+*  (c) Copyright 1993, 1994 Sun Microsystems, Inc.
+*  (c) Copyright 1993, 1994 Novell, Inc.
+**********************************************************************/
+#define Background_width 16
+#define Background_height 16
+static char Background_bits[] = {
+   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
