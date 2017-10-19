@@ -1,0 +1,490 @@
+                   The Poskanzer Bitmap Collection
+                       Distribution of 31oct88
+                    Previous distribution 23may88
+
+
+This is a collection of monochrome bitmaps, for use as background patterns,
+clip-art, et cetera.  They are stored in X11 bitmap format, and most of
+them are compressed.  If you need them in some other format, take a look
+at my "pbm" portable bitmap toolkit, which is probably available from the
+same place you got these bitmaps.
+
+Some of these bitmaps are copyrighted, but as far as I know none of them
+have any restrictions on distribution.  However, there may still be
+restrictions on their use.  For instance, the Digital Equipment logo is
+trademarked, so even though my bitmap of it is not copyrighted, the
+representation that results when you use it might get you into trouble.
+In any case, if you know a reason why any of these bitmaps should not
+be freely distributed, please let me know and I'll remove them from the
+collection.
+
+The collection currently has 1038 bitmaps of various sizes from 16x16 to
+1600x1280  The total size is about 47 megabytes uncompressed, and 7
+megabytes compressed.  MORE BITMAPS ARE ALWAYS WELCOME!  Mail submissions
+to one of the addresses below, or tell me where I can FTP them from.  To
+email bitmaps, you can convert them to pbm format, which is designed to
+be mailed safely.  Or, if they are too large for that (more than 50K),
+compress uuencode and split them.  For example:
+
+    compress largebitmap.macp
+    uuencode largebitmap.macp.Z largebitmap.macp.Z > largebitmap.macp.Z.uu
+    split -500 largebitmap.macp.Z.uu largebitmap.macp.Z.uu
+    foreach i ( largebitmap.macp.Z.uu?? )
+	mail -s $i jef < $i
+    end
+
+Thank you for your support.
+
+    Jef Poskanzer
+    jef@rtsg.ee.lbl.gov
+    {ucbvax, lll-crg, sun!pacbell, apple, hplabs}!well!pokey
+
+
+And now, the list of bitmaps:
+
+name		width	height	origin	comments
+----		-----	------	------	---------------------------------------
+49ers		172	160	Xerox	A football helmet.
+666		64	64	me	The Bitmap of the Beast.
+X		288	288	me	The official X logo.
+ada		381	441	urban	Ada Lovelace.
+ai_3d_tor	576	454	CCC	A three-D torus.
+aliens		640	400	xpix*	Ripley vs. Mama Alien.
+aljimmy		416	526	xmac	Einstein.
+animal2		512	342	xpix*	A dog.
+apple		16	16	Shein	Like the Apple logo, but with an extra bite.
+arrows		48	58	DCM	Some arrows.
+ascot		512	404	xpix	Motorcycle ad.
+astronaut	1152	900	Berk	An astronaut floating in space.
+att		28	28	Ship	An AT&T logo.
+aufs		32	32	Colum	Icon for AUFS AppleTalk-Unix interface.
+autox		576	454	CCC	Abstract - automatic x's.
+aves_maxim	1152	900	Berk	Birds.
+aves_pionus	1152	900	Berk	More birds.
+bananas		27	36	DCM	Some bananas.  See cherries and strawberry.
+banzai		217	219	me	Banzai Institute logo.
+banzaitilt	220	218	me	Banzai Institute logo, tilted.
+batsignal	64	64	Onions	"To the Batcave, Robin!"
+bears		1152	900	Ship	Two bears from a Far Side cartoon.
+beatles		473	415	Ship	John, George, Paul, and Ringo.
+bengal_tiger	512	342	xmac	A tiger.
+betyboop	576	720	xpix	Betty Boop.
+bicycle		361	271	Xerox	A 10-speed bike.
+big_face	576	720	xpix	Girl and Flower.
+bigcalvin	1024	864	xpix	Calvin and Hobbes.
+bigcheapmoon	1184	1056	Berk*	Looks like bigfullmoon, but is 40% cheaper.
+bigfish		552	199	Xerox	Actually it's more like a whale.
+bigfullmoon	1600	1280	Berk*	An extended version of fullmoon.
+bigstars	1600	1280	Berk*	An extended version of stars.
+bill		280	203	Xerox	A Mr. Bill cartoon.
+bitrot		576	450	CCC*	Decaying bits.
+bldg		400	451	CCC	A building.
+bloom		576	454	CCC	Bloom County.
+blotch		576	454	CCC	Abstract.
+bob		61	75	Train	J. R. "Bob" Dobbs, from the xbob hack.
+boom		576	454	CCC	Abstract.
+bricks1		100	100	me	A brick wall background.
+bricks2		100	100	me	Another brick wall background.
+broadcast	64	64	TomC	A radio tower broadcasting stuff.
+brooke		513	342	xpix	Brooke Shields.
+bulls_eye	576	454	CCC	Abstract.
+bunny		99	99	lmjm	Playboy bunny.
+bush		523	522	Haeber	George Bush.
+calvin		512	432	xpix	Calvin and Hobbes.
+calvin2		90	90	xrn	Calvin - the alternate xrn icon.
+cards/*		40	60	xsol	A set of playing cards - 52 bitmaps.
+carlogos	576	720	Ship*	A bunch of car logos -- neat!
+carpet		1024	864	xpix	Sierpinski carpet, order 3.
+cars		576	720	xpix	Some cars.
+carstrucks	474	614	Ship	Some cars and trucks.
+cassette	58	34	DCM	A tape cassette.
+cbrinkly	576	720	xpix	Christie Brinkley.
+cellauto	1152	900	RPI	One-dimensional cellular automaton.
+chao		256	277	Caro	The Sacred Chao.
+chao2		168	176	HO'P*	Another Sacred Chao.
+cheapmoon	960	848	Berk*	Looks like fullmoon, but is 20% cheaper.
+cheesecake	1152	900	Berk	Sports Illustrated swimsuit shot.
+cheeta		520	593	xpix	A cheeta's face.
+cherries	34	38	DCM	Some cherries.  See bananas and strawberry.
+chess		576	454	CCC*	A chessboard.
+circles1	36	36	me	A circular background.
+circles2	576	454	CCC	Abstract.
+cliparts	576	720	xpix	Shareware clip-art.
+closed		550	271	Xerox	A large "CLOSED" sign.
+clover		576	454	CCC	Abstract.
+coke		64	64	Leres	The Coca-Cola logo.
+conrac		576	427	mugs*	A video monitor undergoing feedback.
+console		74	52	me	A console icon.
+countach	624	468	xpix*	The famous Lamborghini.
+cow		64	64	me	A cow.
+crosby		575	427	mugs*	Bing Crosby.
+csh		74	52	me	A csh icon.
+cube		111	129	me	A cube.
+cube2		103	105	HO'P*	Another cube.
+cubepile	339	346	me	A bunch of cubes.
+dalek		429	525	urban	"EXXXTERRRMINNNATE!!"
+dancer		232	303	Ship	An oriental dancer.
+database	64	64	TomC	GIGO.
+david		243	267	me	An impossible star of david.
+daybreak	1152	900	Berk	Maxfield Parish's "Daybreak".
+dcm_cursors/*	16	16	DCM	205 different cursors, all 16x16.
+dcm_icons/*	64	64	DCM	45 different icons, all 64x64.
+dcm_misc/*	*	*	DCM	118 bitmaps, of various (small) sizes.
+dcm_textures/*	16	16	DCM	79 different textures, all 16x16.
+death		512	511	xmac	"Death and Transfiguration"
+descartes	480	410	mugs*	Rene Descartes.
+digital		295	89	me	The DEC logo.
+diplomacy	608	576	xmac	A board for the game Diplomacy.
+dnews		64	64	TomC	digital news.
+dolphins	172	160	Xerox	A football helmet.
+dont_panic	150	180	Ship	From the Hitchhiker's Guide.
+dont_panic2	60	60	Quisp	Ditto.
+dot		36	36	me	A dot.
+dragon		576	720	xmac	Escher's "Dragon".
+dragon2		313	442	Ship	A smaller "Dragon".
+drkrider	457	667	xpix*	Frank Frazetta's "Dark Rider".
+drugs		208	216	me	A bunch of CONTAC capsules.
+eagle		64	64	gandalf	DDR eagle.
+eddie		576	720	xpix	Eddie Murphy.
+elvis		480	444	mugs*	Elvis Presley.
+emacs		64	64	TomC	An emacs icon.
+enterprise1	272	170	Xfont	A view of NCC 1701.
+enterprise2	368	170	Xfont	Another view of NCC 1701.
+escher		64	64	wyle	Fishy background pattern.
+eye1		208	180	me	The Eye in the Pyramid.
+eye1I		208	180	me	The Eye in the Pyramid, inverted background.
+eye2		576	454	CCC*	An abstract eye-in-pyramid.
+eye3		43	37	HO'P*	A very small Eye in the Pyramid.
+eyes		163	46	me	A pair of sinister eyes, taken from the original mazewar game at Xerox.
+f14		576	720	xpix	Shareware jet.
+far_side	1152	900	Berk	A Far Side comic.
+ferrari		560	242	xpix*	The car.
+fig		64	64	supoj	Icon for Fig.
+fingerprint	576	454	CCC	Abstract.
+fish		32	16	other	The fish from the xfish hack.
+flow		576	454	CCC*	Abstract.
+foo		576	454	CCC*	Abstract.
+fourpoll	576	454	CCC	Abstract.
+fourpoll1	576	454	CCC	Abstract.
+fractal		455	454	CCC*	Abstract - crystalline structure.
+free		153	69	DCM	"Free!"
+fresnel		576	454	CCC*	Abstract - Fresnel lens.
+fuji1		153	38	HO'P*	Mountain, moonrise.
+fullmoon	1152	900	Berk	The moon, set in a star field.
+galaxy		64	64	Sun	A galaxy.
+galois		276	398	mugs*	Evariste Galois.
+garfield	337	177	Xerox	Garfield the cat.
+gasket		1024	864	xpix	Sierpinski gasket, order 2.
+gauss		278	399	mugs*	Karl Friderich Gauss.
+geisha		576	720	xpix	A geisha.
+ghostbust	358	285	Xerox	The Ghostbusters logo.
+globe		64	64	Sun	A globe.
+goaway		64	64	Ship	"GO AWAY".
+godzilla	1152	900	Berk	The famous monster.
+gort		64	64	Sun	"Klaatu barada nikto."
+graf_pic	576	454	CCC*	Abstract.
+graph		64	64	Quisp	An icon for a graphing program.
+greenback	499	210	Hains	A one-dollar bill.
+griffin		576	454	xpix*	A griffin.
+guru		85	326	me	Chinese characters.
+he_man		576	720	xpix	A cartoon character.
+hilbert		264	398	mugs*	David Hilbert.
+hills		576	720	xpix	Landscape line-drawing.
+horror		552	664	xmac	A nightmare.
+huntress	576	720	xpix	A BBS advertisment.
+interceptor	557	370	mugs*	A motorcycle.
+in_use		64	64	Ship	"IN USE!"
+inv		576	454	CCC	Abstract.
+janis		576	427	mugs*	Janis Joplin.
+jefferson	288	359	me	Thomas Jefferson's face, extracted from the twodollar bitmap.
+jimi		576	427	mugs*	Jimi Hendrix.
+john_yoko	1152	900	Berk	John and Yoko.
+journeys_end	1152	900	Ship	Edward Albee's (???) "Journey's End".
+kei1		240	416	RPI	A cartoon character.
+kei2		496	432	RPI	A cartoon character.
+kelp		1152	900	???	Some seaweed.
+kermit		64	64	TomC	A kermit icon.
+kilroy		64	64	frank	Kilroy was here.
+kinski		576	517	xmac	Nastassja Kinski's face.
+kirk		512	342	xpix*	Captain Kirk and Lt. Uhura.
+koala		576	720	xpix	MacVision advertisment.
+kome		64	64	Leres	Radio station KOME logo.
+kristen		576	720	xpix	Nice soft-core graphic by Nagel.
+launch		576	454	xpix*	Space shuttle launch.
+lbl		64	64	Leres	Lawrence Berkeley Lab logo.
+lenna		518	486	Ship	From the same people who brought you the mandrill.
+lenna16		819	767	Ship	Another lenna, larger.
+life		240	240	Xerox	A pattern from Conway's game of life.
+lock		32	32	Millik*	A padlock.
+lum1		464	480	RPI	A cartoon character.
+lum2		352	480	RPI	A cartoon character.
+mac		64	64	TomC	A Macintosh icon.
+mac_bomb	64	64	TomC	A Macintosh that just blew up.
+mac_frown	64	64	TomC	A frowning Macintosh.
+mac_question	64	64	TomC	A Macintosh with a question mark.
+mac_smile	64	64	TomC	A smiling Macintosh.
+mackent		576	454	CCC	A strange "ME" logo.
+madonna		524	338	xpix*	A HyperDrive advertisment.
+magnetosphere	576	454	CCC*	Abstract.
+mail		64	64	Sun	A mailbox with mail in it.
+mail2		64	64	TomC	A slightly improved mail icon.
+mandrill	512	480	xpix	The famous mandrill.
+mandrill16	818	766	xpix	The famous mandrill, larger.
+mandrill18	920	862	xpix	The famous mandrill, even larger.
+mandrillfs	512	512	phils	The mandrill using Floyd-Steinberg half-toning instead of dithering.
+manmoon		576	454	xpix*	Astronaut and flag.
+mans		576	454	CCC*	New wave robotoids.
+map200		512	480	phils	A map of Malaysia, Floyd-Steinberged and edge-enhanced.
+marilyn1	1152	900	Berk	Marilyn Monroe, badly dithered.
+marilyn2	279	491	xpix*	Marilyn Monroe by Warhol.
+marilyn3	511	596	xpix*	Famous calendar pose of Marilyn Monroe.
+mask		576	454	CCC	Abstract.
+max		346	326	mugs*	Max Headroom.
+max2		1152	900	Ship	More Max headroom.
+max_brandy	1184	952	Berk	E&J brandy advertisment.
+maze1		100	100	me	A maze background.  Wraps around.
+maze2		768	768	xpix	A scene from MazeWar.
+medeco		576	454	CCC	Logo - the distortion is intentional.
+mentor		576	454	CCC	Dream stereo control panel.
+mesozoic	490	442	Ship	A cartoon with dinosaurs.
+mickey		576	720	xpix	Mickey Mouse, slightly messed up.
+mickey2		328	326	mugs*	Mickey Mouse as the Sorceror's Apprentice.
+mickey3		58	58	DCM	Another Mickey Mouse.
+miranda		576	720	xpix	Voyager 2 image of the moon Miranda.
+mistert		64	64	???	"Hey suckah!"
+mit		168	145	Xfont	An MIT logo.
+mmail		64	64	TomC	An open mailbox.
+mobot_1		348	419	mugs*	A robot.
+moeb		576	720	xpix	Escher's "Band von Moebius II".
+morrison	428	439	mugs*	Jim Morrison.
+mouse		62	26	Xerox	A tiny mouse on wheels.
+movietone	16	16	me	A nice simple background pattern.
+mstreep		576	720	xpix	Allegedly Meryl Streep.
+mug		177	171	mugs*	A mug.
+nausicca1	496	480	RPI	A cartoon character.
+nausicca2	496	480	RPI	A cartoon character.
+nebula		576	720	xpix	Astromonical photograph.
+nerd		197	197	me	R. Crumb's nerd.
+news		64	64	DCM	A news icon.
+news2		64	64	TomC	Another news icon.
+nil		576	454	CCC	NIL.
+nile		576	454	CCC*	A phrase in Greek.
+no		199	199	me	A circle-with-bar, for customization.
+nobozos		64	64	Sun	No Bozos.
+nomail		64	64	Sun	A mailbox without any mail.
+nomail2		64	64	TomC	A slightly inproved nomail icon.
+nonoids		135	150	Quisp	The Domino's Pizza character.
+nosmoking	232	233	me	A cigarette in a circle-with-bar.
+okay		51	23	DCM	"Ok!"
+okay2		71	30	DCM	"Okay."
+opus		485	416	mugs*	Opus the Penguin (stuffed).
+packet		64	64	TomC	A funnel. ???
+panther		576	720	xpix	Interesting graphic of panther and fem.
+peidmont	576	720	xpix	Another Nagel graphic.
+phoenix		576	454	CCC*	Line drawing of phoenix.
+phone		64	48	Sun	A telephone.
+phone2		64	64	TomC	Another telephone.
+pipes		100	100	me	Plumbing background.  Wraps around.
+popart		576	454	CCC	Abstract.
+prisoner	195	203	Riggle	The penny-farthing bicycle.
+rap		218	63	HO'P*	RAP.
+rato		116	146	HO'P*	El Rato de el Paso.
+reagan		442	402	mugs*	Ronald Wilson Reagan.
+reagan2		444	616	Ship	A somewhat less serious portrait.
+reagan3		425	684	Haeber	A better version of reagan2.
+realeye		112	75	???	A human eye.  Good looking, too.
+reflect		483	691	Ship*	Escher's "Hand With Reflecting Globe".
+rhine		1024	808	Xerox	A village scene on the Rhine.
+riemann		226	256	mugs*	Georg Friedrich Bernhard Riemann.
+rlogin		74	52	me	An rlogin icon.
+rn		48	48	Leres	A blowtorch.
+rn2		64	64	Ship	Another rn icon.
+roadrunner	79	106	LaFerl*	"BEEP BEEP!!!"
+rolex		64	64	TomC	A Rolex watch face.
+ronbo		576	720	xpix	A movie poster - Ronald Ronbo.
+rose		382	469	me	A rose.  Extracted from a NeWS demo.
+rose2		32	32	HO'P*	Another rose.
+rpicalvin	512	470	xpix	More Calvin and Hobbes.
+run		256	49	Ship	Little running men.
+scarabs		520	351	xmac	A pair of dung-beetles.
+scorpion	576	450	xmac	A nice drawing of a nasty crustacean.
+scrooge		576	720	xpix	Scrooge McDuck.
+sequent		48	48	rlb	Sequent Computer Systems logo.
+shapes		100	100	me	A geometric shapes background.
+shin		416	440	RPI	A cartoon character.
+sinatra		514	452	mugs*	Frank Sinatra.
+skull1		576	720	xpix	An anatomical drawing of a skull.
+skull2		576	720	xmac	An anatomical drawing of a skull.
+skull3		87	109	HO'P*	A skull.
+skulls		281	183	HO'P*	A bunch of skulls.
+smallmoon	256	256	Xerox	The moon.
+smiley		36	36	me	A smiley-face.
+smiley2		16	16	Ship	Another smiley-face.
+sphere		146	146	Xerox	A sphere.  This is one of the oldest bitmaps around -- I saw it in 1974.
+sphere2		57	56	HO'P*	Another sphere.
+sphere3		82	81	HO'P*	Another sphere.
+spock		512	342	xpix*	Mr. Spock.
+spock2		305	329	Ship	Spock's face.
+spotty		64	64	dpz	A spotty background.
+sq_tunnel	576	454	CCC	Abstract.
+stanford1	208	216	Xfont	A Stanford logo.
+stanford2	128	216	Xfont	Another Stanford logo.
+stars		1152	900	Berk	A star-field.
+startrek	512	342	xpix*	McCoy, Kirk, and Spock.
+steinheim	1024	808	Berk	A haunted castle.
+stopsign	64	64	DCM	A stop sign.
+strawberry	35	32	DCM	A strawberry.  See bananas and cherries.
+sun		64	64	Sun	A Sun logo icon.
+sun2		25	25	Ship	Another Sun logo.
+sun3		32	32	Ship	Yet another Sun logo.
+sun_icons/*	64	64	rice	27 icons from the sun-icons collection.
+swiss		64	64	TomC	A swiss army knife.
+sybasesnail1	35	56	me	Sybase logo.
+sybasesnail2	56	90	me	Sybase logo.
+sybasesnail3	69	111	me	Sybase logo.
+sybasesnail4	111	179	me	Sybase logo.
+talk		64	64	Ship	A "talk" icon.
+talking		576	454	CCC	Talking Heads logo.
+tapecover1	298	276	HO'P	Tape label: abstract.
+tapecover2	298	276	HO'P	Tape label: mandala / zap.
+tapecover3	282	266	HO'P	Tape label: ball & shadow & spot.
+tapecover4	283	267	HO'P	Tape label: rose / "DEAD".
+tapecover5	282	267	HO'P	Tape label: "mUSIc".
+tapecover6	282	267	HO'P	Tape label: crystal domains.
+tapecover7	283	267	HO'P	Tape label: stuzzy waves / zap.
+tapecover8	283	267	HO'P	Tape label: Grateful Dead.
+tapecover9	283	267	HO'P	Tape label: ribbons / Grateful Dead.
+tapecover10	283	267	HO'P	Tape label: abstract.
+tapecover11	283	267	HO'P	Tape label: abstract.
+tapecover12	283	267	HO'P	Tape label: petroglyphs.
+tapecover13	285	265	HO'P	Tape label: mandala / pretty cool.
+tapecover14	283	268	HO'P	Tape label: abstract / eye / branches.
+tapecover15	285	265	HO'P	Tape label: skull / Grateful Dead.
+tapecover16	283	268	HO'P	Tape label: skulls / Grateful Dead.
+tapecover17	285	265	HO'P	Tape label: mesh / Fuji.
+tapecover18	283	265	HO'P	Tape label: mesh / snakes.
+tapecover19	285	265	HO'P	Tape label: tunnel.
+tapecover20	283	267	HO'P	Tape label: abstract.
+tapecover21	285	265	HO'P	Tape label: El Rato de El Paso.
+tapecover22	285	265	HO'P	Tape label: man smoking / Grateful Dead.
+tapecover23	285	265	HO'P	Tape label: Sacred Chao / snake / eye.
+tapecover24	283	267	HO'P	Tape label: shapes / eye.
+tapecover25	285	265	HO'P	Tape label: Weeping Beatnik.
+tapecover26	283	267	HO'P	Tape label: abstract.
+tapecover27	285	265	HO'P	Tape label: three-D / eye.
+tapecover28	283	267	HO'P	Tape label: moon ghost / zap.
+tapecover29	283	267	HO'P	Tape label: "Tape" / "DOLBY".
+tapecover30	283	267	HO'P	Tape label: ribbons / "TAPE".
+tapecover31	285	265	HO'P	Tape label: HO'P Sampler 1987.
+tapecover32	285	265	HO'P	Tape label: "RAP I".
+tardis		72	116	Riggle	A London police box.
+tek		64	64	TomC	A graphics terminal icon.
+telnet		74	52	me	A telnet icon.
+thing		576	720	xpix	A very *nasty* thing.
+three_worlds	512	356	xmac	Escher's "Three Worlds".
+tidings		576	720	xpix	Shareware clipart.
+tiffany		830	744	Xerox	Generic female face.
+timex		64	64	Leres	A slightly-modified clock face.
+tinymoon	65	64	me	Very small moon, converted from my phoon program.
+tinynosmoking	64	64	Sun	A smaller cigarette-in-a-slashed-circle.
+tip		74	52	me	A tip icon.
+tongue		16	16	me	A very small tongue.
+touchup/*	*	*	touch	Various bitmaps a raster editor.
+train1		392	280	xpix*	A steam engine.
+trek		60	34	Sun	A small Starship Enterprise.
+triangle	173	151	me	The impossible triangle.
+tty		64	64	DCM	A dumb-terminal icon.
+tvc15		576	454	CCC	Abstract.
+tweety		80	112	gandalf	Tweety-pie.
+twodollar	1024	808	Xerox	A two-dollar bill.
+unicorn		120	150	Quisp	A unicorn.
+unixman		64	192	cw	A unix fan.
+uwmadison	48	48	Cohrs	Logo for UW-Madison.
+valentine	100	100	Ship	A valentine.
+vanna		576	720	xpix	The Amazing Vanna White.
+vanna2		337	477	xpix*	The Amazing Vanna White again.
+venn		576	454	CCC	Venn-diagram abstraction.
+veretek		332	506	Ship	A GoBot, I suppose.
+vt100		64	64	TomC	A VT100 icon.
+vt102		64	64	TomC	A VT102 icon.
+vt220		64	64	TomC	A VT220 icon.
+waterfall	576	720	xmac	Based on Escher's "Waterfall".
+waves1		100	100	me	A wavy background.
+waves2		100	100	me	Another wavy background.
+weirdscience	576	454	CCC	Abstract.
+woman-with-ban	576	454	CCC	Utterly abstract.
+woodduck	528	671	xmac	A nice duck drawing.
+working		322	69	DCM	"Working..."
+wrath_head	247	272	Ship	A nasty-looking head.
+wring		576	454	CCC*	A write ring.
+write_file	76	87	Ship	Clearly devolved.
+wrwatch		512	342	xpix*	A stopwatch.
+xerox		573	154	Xerox	The Xerox logo.
+xim		100	100	phils	Icon for xim - looks like a slide.
+xrn		50	50	xrn	The xrn icon.
+xterm		74	52	me	An xterm icon.
+xwanderer/*	*	*	cuddy	40 bitmaps from the xwanderer game.
+yafa		183	116	Caro	The Yafa logo.
+yamato		576	454	CCC	Japanese phrase.
+yellowpages	64	64	Sun	Let your fingers do the walking.
+yield		48	48	DCM	A yield sign.
+yin_yang1	98	98	Xerox	Yin and Yang.
+yin_yang2	576	454	CCC	Yin and Yang.
+yoda		135	218	Xerox	Ah, Yoda you seek.  Powerful Jedi is he.
+yoda2		78	55	DCM	Another Yoda.
+yosemite	1152	900	Berk	Yosemite valley.
+yoyodyne	288	288	me	YOYODYNE Propulsion Systems.
+yuri1		512	512	RPI	A cartoon character.
+yuri2		512	512	RPI	A cartoon character.
+zapata		576	454	xpix*	A running shoe.
+zip		48	52	DCM	U.S. Postal Service logo.
+zippy		466	410	mugs*	Zippy the Pinhead.
+zebragrl	576	720	xpix	By Olivia deBerardinis.
+
+The code for the origin column is as follows:
+
+    xpix = from the xpix collection of Seth Finkelstein, Project Athena
+    CCC = Concourse Computer Center, via xpix
+    RPI = Rensselaer Prophylactic Institute, via xpix
+    me = Jef Poskanzer
+    HO'P = Harold Poskanzer
+    Xerox = from various people at Xerox
+    xmac = from Patrick Naughton's xmac collection
+    Berk = from the xbackgrounds collection on ucbvax.Berkeley.Edu
+    mugs = from the mugshots subdirectory of xpix
+    Ship = from Peter Shipley of UC Berkeley
+    DCM = from DC Martin of UC Berkeley
+    Sun = from the Sun icon library
+    rice = from the sun-icons directory on titan.rice.edu
+    TomC = Thomas Clodfelter of JPL
+    Xfont = extracted from a font in the X.V11R2 release
+    Leres = Craig Leres of the Lawrence Berkeley Lab
+    phils = Philip R. Thompson of MIT
+    Caro = Perry Caro, then of Xerox
+    Riggle = David Riggle, then of Xerox
+    Hains = Chuck Hains of Xerox
+    Shein = Barry Shein
+    Millik = Walter Milliken
+    LaFerl = Robert LaFerla
+    frank = frank@lands.CED.Berkeley.EDU
+    Onions = Julian Onions of Nottingham University
+    Train = Douglas Trainor of UCLA
+    lmjm = Lee McLoughlin
+    cw = Chris Walters
+    dpz = David P. Zimmerman
+    wyle = Mitchell Wyle
+    rlb = Bob Brown
+    supoj = Supoj Sutanthavibul of UTexas
+    gandalf = Juergen "Gandalf" Wagner, CSLI, Stanford
+    xsol = from David Lemke's xsol game, but he got them from some(unknown)where else
+    touch = from Raymond Kreisel's "touchup" raster editor
+    urban = Mike Urban
+    Quisp = Keith MacKay
+    Cohrs = Dave Cohrs of UW-Madison
+    other = see comments
+    Colum = Columbia University in the City of New York
+    Haeber = Paul Haeberli of SGI
+    xrn = from the xrn program of Ellen Sentovich and Rick Spickelmier
+    cuddy = Mike Cuddy
+    ??? = unknown
+    <xxx>* = the asterix indicates I touched it up a bit or two

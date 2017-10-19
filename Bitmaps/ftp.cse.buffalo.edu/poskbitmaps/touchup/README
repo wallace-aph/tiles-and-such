@@ -1,0 +1,14 @@
+These bitmaps are from the "touchup" raster editor for Suns running SunView.
+They are:
+   Copyright (c) 1988 by Raymond Kreisel
+   They may be redistributed without fee as long as this copyright
+   notice is intact.
+
+name		width	height	comments
+----		-----	------	-----------------------------------------------
+info		384	217	Apparently the face of Raymond Kreisel.
+touchup		64	64	Icon for touchup.
+brush*		32	32	7 circular dots of varying size.
+pattern*	32	32	40 different fill patterns.
+*_command	48	48	28 different icons for touchup's commands.
+*_cursor	16	16	7 different cursors for touchup's modes.

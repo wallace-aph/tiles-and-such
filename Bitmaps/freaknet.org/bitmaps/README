@@ -1,0 +1,26 @@
+These are the pertinent bitmaps from Mike Hawleys tape
+given to me.
+
+I have converted them into X bitmap format.
+
+Peter Collinson Dec 1988
+
+Here is the original contents of this file:
+
+Here is a vast library of pictures for the Sun II.
+Most are bitmaps (in Bitmap (5) format) and can be edited
+using "be".
+The origin of many of these pictures is lost to antiquity.
+Credit and blame belongs to Luca Cardelli (Bell Labs),
+Sam Leffler, and Michael Hawley (Lucasfilm).
+
+bmenu		bitmaps used in Bitmap menus.
+cameo		happy faces
+cursor		bitmaps that make good mouse cursors
+face		cheerful faces
+frame		bitmaps which make nice animation frames
+icon		bitmaps used as program icons
+large		large bitmaps
+layout		random pictures produced by "layout".
+portrait	even more smiling, happy faces
+texture		bitmaps that make nice background textures

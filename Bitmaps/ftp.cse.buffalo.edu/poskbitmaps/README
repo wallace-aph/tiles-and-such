@@ -1,0 +1,933 @@
+                   The Poskanzer Bitmap Collection
+                       Distribution of 24dec89
+                    Previous distribution 14aug89
+
+
+This is a collection of monochrome bitmaps, for use as background patterns,
+clip-art, et cetera.  They are stored in X11 bitmap format, and most of
+them are compressed.  If you need them in some other format, take a look
+at my "pbm" portable bitmap toolkit, which is probably available from the
+same place you got these bitmaps.
+
+Some of these bitmaps are copyrighted, but as far as I know none of them
+have any restrictions on distribution.  However, there may still be
+restrictions on their use.  For instance, the Digital Equipment logo is
+trademarked, so even though my bitmap of it is not copyrighted, the
+representation that results when you use it might get you into trouble.
+In any case, if you know a reason why any of these bitmaps should not
+be freely distributed, please let me know and I'll remove them from the
+collection.
+
+The collection currently has 1851 bitmaps of various sizes from 16x16 to
+1600x1280  The total size is about 110 megabytes uncompressed, and 27
+megabytes compressed.  MORE BITMAPS ARE ALWAYS WELCOME!  Mail submissions
+to one of the addresses below, or tell me where I can FTP them from.  To
+email bitmaps, you can convert them to pbm format, which is designed to
+be mailed safely.  Or, if they are too large for that (more than 50K),
+compress uuencode and split them.  For example:
+
+    compress largebitmap.macp
+    uuencode largebitmap.macp.Z largebitmap.macp.Z > largebitmap.macp.Z.uu
+    split -500 largebitmap.macp.Z.uu largebitmap.macp.Z.uu
+    foreach i ( largebitmap.macp.Z.uu?? )
+	mail -s $i jef < $i
+    end
+
+Thank you for your support.
+
+    Jef Poskanzer
+    {ucbvax, lll-crg, sun!pacbell, apple, hplabs}!well!pokey
+
+
+And now, the list of bitmaps:
+
+name		width	height	origin	comments
+----		-----	------	------	---------------------------------------
+49ers		172	160	Xerox	A football helmet.
+63vette		1152	671	GIF*	A classic Corvette.
+666		64	64	me	The Bitmap of the Beast.
+944gtp		1140	772	GIF*	A racing Porsche.
+FANtasy		695	900	me	Ricardo Montalblan.
+PANIC		1028	900	me	"PANIC".
+V		1152	900	Aitken	Mask from Cover of 'V' album (Moore/Lloyd).
+X		288	288	me	The official X logo.
+ada		381	441	urban	Ada Lovelace.
+adpcop		272	200	GIF*	A comic character.
+aface		40	40	Engel	A ghostly face.
+afterburner	640	400	GIF*	From the ZZ-Top album.
+ai		855	900	Sun*	An artificial intelligence.
+ai_3d_tor	576	454	CCC	A three-D torus.
+albert		768	600	GIF*	Einstein in coveralls.
+alicia		660	436	GIF*	A Nagel-like graphic.
+aliens		640	400	xpix*	Ripley vs. Mama Alien.
+aljimmy		416	526	xmac	Albert Einstein and James Cagney?
+animal1		1152	900	Aitken	Animal Man.
+animal2		512	342	xpix*	A dog.
+animal5		1152	900	Aitken	Another Animal Man.
+anotherworld	752	900	me	Escher's "Another World".
+apollo10	366	480	GIF*	The Apollo 10 command module.
+apple		16	16	Shein	Like the Apple logo, but with an extra bite.
+arch		16	16	Engel	An arch.
+arches		1152	900	???	Somewhere in the southwest.
+ariel		640	400	GIF*	A flying fem.
+arrows		48	58	DCM	Some arrows.
+as08g04		480	360	AStuff	[CREAM LEMON: POP*CHASER]
+as08g06		480	360	AStuff	[ICZER-1]
+as08g07		480	360	AStuff	[ICZER-1]
+as08g08		480	360	AStuff	[ICZER-1]
+as08g10		480	360	AStuff	[ICZER-1]
+as09g03		480	360	AStuff	"Noah Izumi polishing her Patlabor mecha" [MOBILE POLICE PATLABOR]
+as09g04		480	360	AStuff	"A new arrival at the base" [MOBILE POLICE PATLABOR]
+as09g07		480	360	AStuff	"Sybel ponders a news leak" [BLACK MAGIC M-66]
+as09g09		480	360	AStuff	"M-66 cools off in the sewer system" [BLACK MAGIC M-66]
+as10g05		480	360	AStuff	"Alu and Leona get a new Tank Police logo on their tank!" [DOMINION]
+ascot		512	404	xpix	Motorcycle ad.
+aspen		1152	900	???	Leaves.
+astronaut	1152	900	Berk	An astronaut floating in space.
+athena		100	100	Aoki	MIT's Project Athena logo.
+att		28	28	Ship	An AT&T logo.
+attack		968	905	Hope	A Gahan Wilson picture
+aufs		32	32	Colum	Icon for AUFS AppleTalk-Unix interface.
+autox		576	454	CCC	Abstract - automatic x's.
+aves_maxim	1152	900	Berk	Birds.
+aves_pionus	1152	900	Berk	More birds.
+axes		70	70	Engel	A pair of axes.
+b52s		1123	738	me	B52 graveyard, from "Dead Tech".
+balls3		1152	900	mp1w	Ray-traced globes scene.
+balls4		1152	900	mp1w	Ray-traced globes scene.
+balls5		1152	900	mp1w	Ray-traced globes scene.
+bananas		27	36	DCM	Some bananas.  See cherries and strawberry.
+banzai		217	219	me	Banzai Institute logo.
+banzaitilt	220	218	me	Banzai Institute logo, tilted.
+baph		313	454	Lindsay	The Baphomet of Mendes.
+bat_joker	1152	900	Aitken	Batman jumping at the Joker.
+batman		1152	540	GIF*	The Caped Crusader.
+batman2		1152	900	Aitken	The Batman.
+batmobile	1152	900	Aitken	Batmobile from The Killing Joke.
+batsignal	64	64	Onions	"To the Batcave, Robin!"
+batsignal2	762	469	me	The bat-signal.
+bboop		206	450	GIF*	Betty Boop.
+bc		1152	900	???	Satellite image of British Columbia.
+bear		576	450	mp1w	A bear.
+bears		1152	900	Ship	Two bears from a Far Side cartoon.
+beatles		473	415	Ship	John, George, Paul, and Ringo.
+beatles2	640	400	GIF*	Paul, Ringo, George, and John.
+belvedere	443	697	mp1w	M. C. Escher's "Belvedere".
+bengal_tiger	512	342	xmac	A tiger.
+betyboop	576	720	xpix	Betty Boop.
+bfg962		1024	700	hue	A Porsche 962.
+bgrnd		64	44	mp1w	Op-art tiling background.
+bicycle		361	271	Xerox	A 10-speed bike.
+big_face	576	720	xpix	Girl and Flower.
+bigcalvin	1024	864	xpix	Calvin and Hobbes.
+bigcheapmoon	1184	1056	Berk*	Looks like bigfullmoon, but is 40% cheaper.
+bigcheapmoo2	1328	1178	Berk*	Like bigcheapmoon, but the moon itself is enlarged.
+bigfish		552	199	Xerox	Actually it's more like a whale.
+bigfullmoon	1600	1280	Berk*	An extended version of fullmoon.
+bigstars	1600	1280	Berk*	An extended version of stars.
+bilbo		640	400	GIF*	Bilbo Baggins, from the Rankin-Bass "Hobbit".
+bill		280	203	Xerox	A Mr. Bill cartoon.
+billtcat	640	400	GIF*	"Ack ack!!"
+bitch		728	869	me	"Life's a bitch and so am I!"
+bitrot		576	450	CCC*	Decaying bits.
+bladerunner	960	600	GIF*	From a movie poster.
+blastoff	640	350	GIF*	A shuttle taking off.
+bldg		400	451	CCC	A building.
+bloom		576	454	CCC	Bloom County.
+blotch		576	454	CCC	Abstract.
+bob		61	75	Train	J. R. "Bob" Dobbs, from the xbob hack.
+boom		576	454	CCC	Abstract.
+breathtakers	297	424	kendy	A speedway ad.
+briareos	320	240	WPI	Briareos the cyborg [APPLESEED]
+bricks1		100	100	me	A brick wall background.
+bricks2		100	100	me	Another brick wall background.
+broadcast	64	64	TomC	A radio tower broadcasting stuff.
+bronze		1152	717	GIF*	Detail from some religious sculpture.
+brooke		513	342	xpix	Brooke Shields.
+bud		1152	864	GIF*	These buds are for you.
+buggs		640	400	GIF*	Buggs Bunny on the analyst's couch.
+bulldog		390	408	GIF*	A bulldog.
+bulls_eye	576	454	CCC	Abstract.
+bunny		99	99	lmjm	Playboy bunny.
+bush		523	522	Haeber	George Bush.
+cablecar	1024	700	hue	A cable car.
+cafewall	128	64	kinzler	The "Cafe Wall" optical illusion.
+cafewall2	256	128	kinzler	Another "Cafe Wall".
+calvin		512	432	xpix	Calvin and Hobbes.
+calvin2		90	90	xrn	Calvin - the alternate xrn icon.
+calvin3		1152	900	Aitken	Calvin & Hobbes Dancing to music.
+car		751	276	Idraw	a car
+cards/*		40	60	xsol	A set of playing cards - 52 bitmaps.
+carlogos	576	720	Ship*	A bunch of car logos -- neat!
+carpet		1024	864	xpix	Sierpinski carpet, order 3.
+cars		576	720	xpix	Some cars.
+carstrucks	474	614	Ship	Some cars and trucks.
+casablanca	690	514	me	Scene from the movie.
+cassette	58	34	DCM	A tape cassette.
+castrovalva	632	789	me	Escher's "Castrovalva".
+cbrinkly	576	720	xpix	Christie Brinkley.
+celebration	510	698	mp1w	An elvish party.
+cellauto	1152	900	RPI	One-dimensional cellular automaton.
+challenger	1152	720	GIF*	A shuttle taking off.
+chao		256	277	Caro	The Sacred Chao.
+chao2		168	176	HO'P*	Another Sacred Chao.
+cheapmoon	960	848	Berk*	Looks like fullmoon, but is 20% cheaper.
+cheesecake	1152	900	Berk	Sports Illustrated swimsuit shot.
+cheeta		520	593	xpix	A cheeta's face.
+cheeta2		640	441	GIF*	A cheeta.
+cherries	34	38	DCM	Some cherries.  See bananas and strawberry.
+chess		576	454	CCC*	A chessboard.
+chinalake??	548	420	???*	14 images in three different sequences, of planes and missiles.
+chipmunks	640	350	GIF*	Cartoon chipmunks.
+churchy		357	480	schwrtz	Scanned from The Puce Stamp Catalog.
+circles1	36	36	me	A circular background.
+circles2	576	454	CCC	Abstract.
+clint		730	974	mp1w	Nice contrasty Clint Eastwood.
+clip_art_39	576	720	HO'P	Random clip-art.
+cliparts	576	720	xpix	Shareware clip-art.
+closed		550	271	Xerox	A large "CLOSED" sign.
+clover		576	454	CCC	Abstract.
+cobra		960	600	GIF*	A snake in the desert.
+coke		64	64	Leres	The Coca-Cola logo.
+coke2		371	300	me	A Coca-Cola can.
+coke_small	110	107	me	The Coca-Cola logo.
+coke_thai	339	274	me	A Coca-Cola can from Thailand.
+columbine	1152	900	???	Flowers.
+con		128	32	mp1w	A "console" icon.
+conrac		576	427	mugs*	A video monitor undergoing feedback.
+console		74	52	me	A console icon.
+countach	624	468	xpix*	The famous Lamborghini.
+cow		64	64	me	A cow.
+cow2		598	835	me	"MOOOOO!!!"
+coyote		640	400	GIF*	Wile E. Coyote.
+cramps		458	581	allynh	A Cramps poster.
+creationii	1152	678	GIF*	Detail from the Sistine Chapel ceiling.
+crosby		575	427	mugs*	Bing Crosby.
+cs9		1152	721	GIF*	Colorado & Southern engine number nine.
+csh		74	52	me	A csh icon.
+cube		111	129	me	A cube.
+cube2		103	105	HO'P*	Another cube.
+cubepile	339	346	me	A bunch of cubes.
+cubicspace	645	636	me	Escher's "Cubic Space Division".
+cylinders	59	59	Engel	A tiling cylinders background.
+daffy		640	400	GIF*	Daffy duck.
+daisy		99	99	Engel	A little flower.
+dalek		429	525	urban	"EXXXTERRRMINNNATE!!"
+dali		576	900	PMA	a Dali
+dancer		232	303	Ship	An oriental dancer.
+database	64	64	TomC	GIGO.
+david		243	267	me	An impossible star of david.
+dayandnight	1152	672	me	Escher's "Day and Night".
+daybreak	1152	900	Berk	Maxfield Parish's "Daybreak".
+dc10		1024	700	hue	The commercial jet.
+dcm_cursors/*	16	16	DCM	205 different cursors, all 16x16.
+dcm_icons/*	64	64	DCM	45 different icons, all 64x64.
+dcm_misc/*	*	*	DCM	118 bitmaps, of various (small) sizes.
+dcm_textures/*	16	16	DCM	79 different textures, all 16x16.
+dean		870	516	me	James Dean, 1955.
+death		512	511	xmac	"Death and Transfiguration"
+descartes	480	410	mugs*	Rene Descartes.
+desert		960	600	GIF*	A desert scene.
+deunan		320	480	WPI	Deunan Knute [APPLESEED]
+digital		295	89	me	The DEC logo.
+diplomacy	608	576	xmac	A board for the game Diplomacy.
+dirty_logo	507	204	Okamoto	logo from [DIRTY PAIR]
+dirtypair	1152	900	WPI	Yuri and Kei [DIRTY PAIR]
+dmr		812	900	???*	Dennis Ritchie.
+dnews		64	64	TomC	digital news.
+dolphins	172	160	Xerox	A football helmet.
+don_daisy	384	350	GIF*	Donald and Daisy Duck.
+donald		1152	900	Aitken	Donald Duck's face.
+donaldduck	320	200	GIF*	Donald Duck.
+dont_panic	150	180	Ship	From the Hitchhiker's Guide.
+dont_panic2	60	60	Quisp	Ditto.
+doors		564	132	GIF*	The Doors logo.
+dot		36	36	me	A dot.
+dragon		576	720	xmac	Escher's "Dragon".
+dragon2		313	442	Ship	A smaller "Dragon".
+dragon3		960	600	GIF*	A dragon breathing fire.
+dragon4		1024	1024	mp1w	Dragon and dragonslayer.
+dredd		1152	900	Aitken	Judge Dredd from 2000AD.
+drgw480		1152	831	GIF*	A steam engine.
+drkrider	457	667	xpix*	Frank Frazetta's "Dark Rider".
+drugs		208	216	me	A bunch of CONTAC capsules.
+ducks		746	710	Idraw	some greeting-card ducks
+dwarves		1321	1016	mp1w	Dwarves by the Hildebrand brothers.
+e_n		573	485	allynh	Einsturzende Neubauten logo.
+eagle		64	64	gandalf	FRG eagle.
+earth1		452	403	GIF*	The Earth.
+earth2		488	488	GIF*	The Earth.
+earth3		514	511	GIF*	The Earth.
+earthrise	480	360	GIF*	The Earth, rising above the Moon.
+echidna1	576	563	mp1w	Hidden-surface geometric art.
+eddie		576	720	xpix	Eddie Murphy.
+edwinaldrin	1024	900	GIF*	A famous shot on the moon.
+einstein	900	900	GIF*	Albert Einstein.
+einstein2	1152	900	Aitken	Einstein & dice.
+electric_eng	1152	900	Sun	An electrical engineer at work.
+elvis		480	444	mugs*	Elvis Presley.
+emacs		64	64	TomC	An emacs icon.
+emirikol	1024	789	???	A D&D woodcut.
+enterprise	1152	900	???	The starship Enterprise.
+enterprise1	272	170	Xfont	A view of NCC 1701.
+enterprise2	368	170	Xfont	Another view of NCC 1701.
+escher		64	64	wyle	Fishy background pattern.
+eve		320	240	WPI	Tokimatsuri Eve [MEGAZONE 23]
+eve2		576	395	WPI	Tokimatsuri Eve [MEGAZONE 23]
+eye1		208	180	me	The Eye in the Pyramid.
+eye1I		208	180	me	The Eye in the Pyramid, inverted background.
+eye2		576	454	CCC*	An abstract eye-in-pyramid.
+eye3		43	37	HO'P*	A very small Eye in the Pyramid.
+eyes		163	46	me	A pair of sinister eyes, taken from the original mazewar game at Xerox.
+eyes2		256	192	???	A pair of eyes in foliage.
+f14		576	720	xpix	Shareware jet.
+f18		1024	700	hue	The jet fighter.
+faces/*		*	*	richb	Some small icons from Rich Burridge's faces program.
+fantasia	640	400	GIF*	Mickey mouse as a wizard.
+far_side	1152	900	Berk	A Far Side comic.
+fence		64	76	mp1w	Cyclone fence tiling background.
+ferrari		560	242	xpix*	The car.
+fig		64	64	supoj	Icon for Fig.
+fingerprint	576	454	CCC	Abstract.
+fish		32	16	other	The fish from the xfish hack.
+fish2		235	162	jonnyg	The monochrome fish from xaqua.
+fish3		64	64	djones	A tiling fish background.
+fish4		375	176	russ*	One of the two fish in twofish.
+fish5		287	136	russ*	One of the two fish in twofish.
+flames		250	250	me	A blowtorch.
+flamingos	1152	900	Aitken	Punk Flamingos - Larson.
+flow		576	454	CCC*	Abstract.
+flyhull		1024	800	???	A hobie cat?
+foo		576	454	CCC*	Abstract. (Fixed version.)
+football	1152	900	Aitken	Scene from an early soccer game.
+fourpoll	576	454	CCC	Abstract.
+fourpoll1	576	454	CCC	Abstract.
+fractal		455	454	CCC*	Abstract - crystalline structure.
+frazetta	576	720	mp1w	A Frazetta.
+free		153	69	DCM	"Free!"
+fresnel		576	454	CCC*	Abstract - Fresnel lens.
+frog		1152	900	Aitken	Boy with frog in mouth.
+fuji1		153	38	HO'P*	Mountain, moonrise. (CORRUPTED)
+fullmoon	1152	900	Berk	The moon, set in a star field.
+galaxy		64	64	Sun	A galaxy.
+galois		276	398	mugs*	Evariste Galois.
+garfield	337	177	Xerox	Garfield the cat.
+garfield2	412	420	GIF*	Another Garfield.
+gasket		1024	864	xpix	Sierpinski gasket, order 2.
+gauss		278	399	mugs*	Karl Friderich Gauss.
+geisha		576	720	xpix	A geisha.
+ghostbust	358	285	Xerox	The Ghostbusters logo.
+girlorb		960	600	GIF*	A girl looking at an orb.
+glass		520	520	GIF*	A glass filled with ice cubes and fluid.
+glasses		576	438	mp1w	Wire-frame geometric art.
+globe		64	64	Sun	A globe.
+globes/*	256	256	Sun	Thirty globes.
+goaway		64	64	Ship	"GO AWAY".
+goblinking	960	600	GIF*	The Goblin King, from the Rankin-Bass "Hobbit".
+godzilla	1152	900	Berk	The famous monster.
+goofy		298	350	GIF*	Goofy.  What is Goofy, anyway?
+gort		64	64	Sun	"Klaatu barada nikto."
+gort_klaatu	620	660	me	From "The Day the Earth Stood Still".
+graf_pic	576	454	CCC*	Abstract.
+graph		64	64	Quisp	An icon for a graphing program.
+gratefuldead	520	128	GIF*	Grateful Dead logo.
+greavey		205	244	schwrtz	Scanned from The Puce Stamp Catalog.
+greenback	499	210	Hains	A one-dollar bill.
+griffin		576	454	xpix*	A griffin.
+grimjack	152	148	me	Grimjack's demon emblem.
+grundoon	209	395	schwrtz	Scanned from The Puce Stamp Catalog.
+gun		1152	900	Aitken	"Avoid improper use" pistol - Serre.
+guru		85	326	me	Chinese characters.
+gwtw		1152	768	GIF*	Scene from Gone With The Wind.
+halo		1152	900	Aitken	Halo Jones from 2000AD.
+hands		455	377	mp1w	M. C. Escher's "Drawing Hands".
+hawkins		388	462	allynh	Screamin' Jay Hawkins.
+he_man		576	720	xpix	A cartoon character.
+heythere	1097	779	Aitken	Garfield and a bale of organic material.
+hilbert		264	398	mugs*	David Hilbert.
+hills		576	720	xpix	Landscape line-drawing.
+hobbes		1152	900	Aitken	Calvin & Hobbes in a puddle.
+hobbes2		64	64	???	Hobbes.
+honda		1024	700	hue	A racing motorcycle.
+honey		900	900	GIF*	Peter Honeyman.
+horror		552	664	xmac	A nightmare.
+horse		1152	900	mp1w	A horse.
+howland		392	437	schwrtz	Scanned from The Puce Stamp Catalog.
+huntress	576	720	xpix	A BBS advertisment.
+icon		32	32	mp1w	An abstract icon.
+imaginat	314	332	GIF*	A man with a little dragon.
+in_use		64	64	Ship	"IN USE!"
+infantry	640	480	MLM	M60 machinegunner and friend
+interceptor	557	370	mugs*	A motorcycle.
+inv		576	454	CCC	Abstract.
+ironbfly	640	66	GIF*	Iron Butterfly logo.
+jackson		294	354	GIF*	Andrew Jackson, cut from the $20 bill.
+jaco		524	827	Bilmes	Jaco Pastorius (bass player)
+janis		576	427	mugs*	Janis Joplin.
+japan_chks1	54	54	me	A checkered pattern.
+japan_chks2	59	59	me	A checkered pattern.
+japan_comb	45	60	me	A comb pattern.
+japan_hex	96	80	me	A hexagon pattern.
+japan_mesh	32	32	me	An interlocking pattern.
+jeffairplane	512	166	GIF*	Jefferson Airplane logo.
+jefferson	288	359	me	Thomas Jefferson's face, cut from the twodollar bitmap.
+jerry		238	321	HO'P	Jerry Garcia in front of a rose window.
+jimi		576	427	mugs*	Jimi Hendrix.
+john_yoko	1152	900	Berk	John and Yoko.
+joker		1152	900	Aitken	Joker laughing.
+journeys_end	1152	900	Ship	Edward Albee's (???) "Journey's End".
+judge_death	1152	900	Aitken	Judges Dredd & Death (2000AD).
+jungle		1152	900	Aitken	Group portrait from The Jungle Book.
+jungle2		1280	1005	mp1w	Abstract.
+junkers1	1143	753	me	Junked cars, from "Dead Tech".
+junkers2	1152	900	me	Junked cars and sheep, from "Dead Tech".
+jupiter1	1152	900	me	Voyager 1-19, P-21082, Jupiter, Io, and Europa.
+jupiter2	1152	900	me	Voyager 1-??, P-??, Jupiter.
+kb		1152	900	???	Kate Bush.
+kb_big		1600	1280	???	A bigger Kate Bush.
+kei1		240	416	RPI	A cartoon character.
+kei2		496	432	RPI	A cartoon character.
+kei4		320	240	WPI	Kei w/stats from ANIMAG [DIRTY PAIR]
+kei5		640	400	WPI	Kei popping her top .. [DIRTY PAIR]
+kelp		1152	900	???	Some seaweed.
+kermit		64	64	TomC	A kermit icon.
+kilroy		64	64	frank	Kilroy was here.
+kingtut		1280	800	GIF*	King Tut's mask.
+kinski		576	517	xmac	Nastassja Kinski's face.
+kirk		512	342	xpix*	Captain Kirk and Lt. Uhura.
+kirk2		593	834	GIF*	Captain Kirk.
+kitty		1152	720	GIF*	A kitten.
+knight		960	600	GIF*	A high tech knight.
+knight2		60	90	Engel	A knight.
+knot		219	209	me	From Escher's "Knots".
+knuth		1152	900	GIF*	Knuth: the man, the legend, the bitmap.
+koala		576	720	xpix	MacVision advertisment.
+kome		64	64	Leres	Radio station KOME logo.
+kristen		576	720	xpix	Nice soft-core graphic by Nagel.
+kumi		786	1168	Okamoto	Kumi Miyasato (voice of Eve [MEGAZONE 23])
+ladybug		164	341	schwrtz	Scanned from The Puce Stamp Catalog.
+lambda_sig	576	450	HO'P	Lambda Sigma Delta logo.
+landscape	512	512	???	?
+launch		576	454	xpix*	Space shuttle launch.
+lbl		64	64	Leres	Lawrence Berkeley Lab logo.
+ledzeppelin	380	148	GIF*	Led Zeppelin logo.
+leningrad	946	617	me	Fortress of Peter and Paul, 1973, by Bresson.
+lenna		518	486	Ship	From the same people who brought you the mandrill.
+lenna16		819	767	Ship	Another lenna, larger.
+leon		640	480	WPI	Leon the ADP cop [BUBBLEGUM CRISIS]
+leopard		800	600	???	A leopard's face.
+life		240	240	Xerox	A pattern from Conway's game of life.
+livingdl	562	900	GIF*	James Bond movie poster.
+lock		32	32	Millik*	A padlock.
+london		1067	900	GIF*	A London scene.
+lottery		876	777	me	"Binky plays the lottery for you."
+lum1		464	480	RPI	A cartoon character.
+lum2		352	480	RPI	A cartoon character.
+lum3		640	480	WPI	face o' Lum [URUSEI YATSURA]
+lum4		640	480	WPI	UY "ad" featuring Lum [URUSEI YATSURA]
+lum6		1152	900	WPI	Lum flying [URUSEI YATSURA]
+lum7		576	576	RPI	Lum logo from UY'87 [URUSEI YATSURA]
+lunarrover	640	458	GIF*	The Apollo lunar rover.
+luthor		1152	900	Aitken	Lex Luthor.
+lynn		1152	900	GIF*	Lynn Conway?
+m109		900	900	Tait	ray-traced M-109 self-propelled gun
+mac		64	64	TomC	A Macintosh icon.
+mac_bomb	64	64	TomC	A Macintosh that just blew up.
+mac_frown	64	64	TomC	A frowning Macintosh.
+mac_question	64	64	TomC	A Macintosh with a question mark.
+mac_smile	64	64	TomC	A smiling Macintosh.
+mackent		576	454	CCC	A strange "ME" logo.
+madness		64	44	mp1w	Op-art tiling background.
+madonna		524	338	xpix*	A HyperDrive advertisment.
+maginot		1152	698	me	The Maginot Line, from "Dead Tech".
+magsphere	576	454	CCC*	Abstract.
+mahjongg/*	*	*	geb	140 bitmaps from the "Dragon" mahjongg game.
+mail		64	64	Sun	A mailbox with mail in it.
+mail2		64	64	TomC	A slightly improved mail icon.
+mandelbrot	1152	901	mp1w	A nice B&W rendition of part of the set.
+mandrill	512	480	xpix	The famous mandrill.
+mandrill16	818	766	xpix	The famous mandrill, larger.
+mandrill18	920	862	xpix	The famous mandrill, even larger.
+mandrillfs	512	512	phils	The mandrill using Floyd-Steinberg half-toning instead of dithering.
+manhattan	1152	900	Aitken	Dr. Manhattan skeleton from "Watchmen".
+manhattan2	386	900	me	Dr. Manhattan from "Watchmen".
+manhattan3	1152	621	me	Dr. Manhattan from "Watchmen".
+manhattan4	567	900	me	Dr. Manhattan from "Watchmen".
+manmoon		576	454	xpix*	Astronaut and flag.
+mans		576	454	CCC*	New wave robotoids.
+map200		512	480	phils	A map of Malaysia, Floyd-Steinberged and edge-enhanced.
+marilyn1	1152	900	Berk	Marilyn Monroe, badly dithered.
+marilyn2	279	491	xpix*	Marilyn Monroe by Warhol.
+marilyn3	511	596	xpix*	Famous calendar pose of Marilyn Monroe.
+masaru		640	480	WPI	Masaru (#27) [AKIRA]
+mask		576	454	CCC	Abstract.
+max		346	326	mugs*	Max Headroom.
+max2		1152	900	Ship	More Max headroom.
+max_brandy	1184	952	Berk	E&J brandy advertisment.
+maxhead		640	400	GIF*	Still more Max Headroom.
+maxheadroom	640	400	GIF*	Yet Another Max Headroom.
+maxrabbit1	64	64	PMA	Max the Rabbit [SAM & MAX]
+maxrabbit2	100	100	PMA	Max in ancient Egypt [SAM & MAX]
+mazatlan	1152	900	Xerox	A postcard from Mehico.
+maze1		100	100	me	A maze background.  Wraps around.
+maze2		768	768	xpix	A scene from MazeWar.
+medeco		576	454	CCC	Logo - the distortion is intentional.
+mendo		320	200	GIF*	Mendo Jutaro [URUSEI YATSURA].
+mentael		576	720	mp1w	A wizard.
+mental_fwys	464	280	HO'P	Abstract.
+mentor		576	454	CCC	Dream stereo control panel.
+mesozoic	490	442	Ship	A cartoon with dinosaurs.
+messages	64	64	mp1w	A mailbox icon.
+messages_snd	64	64	mp1w	A mail-send icon.
+mgr/*		*	*	SDH	221 icons of various sizes from MGR.
+mickey		576	720	xpix**	Mickey Mouse.
+mickey2		328	326	mugs*	Mickey Mouse as the Sorceror's Apprentice.
+mickey3		58	58	DCM	Another Mickey Mouse.
+mickey4		640	400	GIF*	Yet another Mickey Mouse, as a wizard.
+mickey5		64	64	mp1w	Small Mickey Mouse.
+mickey_cave	1152	900	Aitken	Mickey & nephews at Injun Joe's cave.
+milk		840	580	GIF*	A Doc Edgerton milk-drop strobe shot.
+miller		1152	880	GIF*	The Champagne of Beers.
+minako		1152	893	Okamoto	Minako Honda (random Japanese singer)
+minako4		315	233	Okamot*	Minako Honda (random Japanese singer) reduced
+minmei1		320	240	Okamoto	Lynn Minmei [MACROSS]
+minmei2		640	950	WPI	Lynn Minmei [MACROSS: FLASHBACK 2012]
+minmei3		680	614	WPI	Lynn Minmei [MACROSS: FLASHBACK 2012]
+minmei5		480	360	AStuff	Lynn Minmei [MACROSS: FLASHBACK 2012]
+miranda		576	720	xpix	Voyager 2 image of the moon Miranda.
+mistert		64	64	???	"Hey suckah!"
+mit		168	145	Xfont	An MIT logo.
+mmail		64	64	TomC	An open mailbox.
+mobot_1		348	419	mugs*	A robot.
+model_t		1152	720	GIF*	The Ford model T.
+moeb		576	720	xpix	Escher's "Band von Moebius II".
+monalisa	780	880	GIF*	Leonardo's Mona Lisa.
+monkeys/*	46	64	marti	16 monkey icons.
+monumentvly	1152	720	GIF*	Magnificent buttes.
+moodyblues	640	120	GIF*	Moody Blues logo.
+moonflag	640	400	GIF*	Old Glory on the moon.
+morrison	428	439	mugs*	Jim Morrison.
+motel		596	856	me	From _Motel_of_the_Mysteries_ by David Macaulay.
+mouffetard	632	900	me	Rue Mouffetard, Paris 1954, Cartier-Bresson
+mountain	1152	900	???	Mt. St. Helens and Spirit Lake.
+mountains	1153	1025	mp1w	A mountaineering scene.
+mouse		62	26	Xerox	A tiny mouse on wheels.
+movietone	16	16	me	A nice simple background pattern.
+mstreep		576	720	xpix	Allegedly Meryl Streep.
+mug		177	171	mugs*	A mug.
+mughi		640	480	WPI	Mughi [DIRTY PAIR]
+nagel11		588	684	GIF*	A graphic by Patrick Nagel
+nagel12		517	342	mp1w	A Nagel.
+nasty		602	900	me	Nasty Detmer, from Grimjack #41.
+nausicaa3	64	64	PMA	Nausicaa [NAUSICAA OF THE VALLEY OF WIND]
+nausicaa4	1152	900	PMA	Nausicaa [NAUSICAA OF THE VALLEY OF WIND]
+nausicaa5	510	450	PMA	Nausicaa [NAUSICAA OF THE VALLEY OF WIND]
+nausicca1	496	480	RPI	Nausicaa.
+nausicca2	496	480	RPI	Nausicaa.
+nebula		576	720	xpix	Astromonical photograph.
+needle		599	703	kendy	An anti-drug message.
+nerd		197	197	me	R. Crumb's nerd.
+net2		16	16	Engel	A net-like background.
+news		64	64	DCM	A news icon.
+news2		64	64	TomC	Another news icon.
+next		64	64	me	The NeXT logo.
+nil		576	454	CCC	NIL.
+nile		576	454	CCC*	A phrase in Greek.
+no		199	199	me	A circle-with-bar, for customization.
+nobozos		64	64	Sun	No Bozos.
+nomail		64	64	Sun	A mailbox without any mail.
+nomail2		64	64	TomC	A slightly inproved nomail icon.
+nonoids		135	150	Quisp	The Domino's Pizza character.
+nosl		469	746	kendy	No Speed Limit - a car-parts ad.
+nosmoking	232	233	me	A cigarette in a circle-with-bar.
+nosmoking2	64	64	Sun	A smaller cigarette-in-a-slashed-circle.
+nukenewyork	1152	900	me	New York, by Chesley Bonestell.
+odie		380	400	GIF*	Odie the salivating dog.
+okay		51	23	DCM	"Ok!"
+okay2		71	30	DCM	"Okay."
+oliver		408	411	mp1w	Oliver Wendell Jones.
+oppenheimer	601	765	me	J. Robert Oppenheimer.
+opus		485	416	mugs*	Opus the Penguin (stuffed).
+opus2		1152	900	???	Opus's fantasy.
+opus3		576	720	mp1w	"Penguin Lust, Figure 1."
+opus_croakus	640	400	GIF*	Opus, during his short-lived career as a Rock God.
+orangeroad	640	480	WPI	? [KIMAGURE ORANGE ROAD]
+owl		1152	900	???	An owl.
+owlman		546	480	GIF*	An owl-man.
+packet		64	64	TomC	A funnel. ???
+panther		576	720	xpix	Interesting graphic of panther and fem.
+parrot		960	600	GIF*	A parrot.
+peace		640	480	GIF*	"Peace On Earth".
+peidmont	576	720	xpix	Another Nagel graphic.
+pepsi		559	365	Idraw	Pepsi's contribution to perestroika
+pern		576	720	mp1w	A globe/map of Pern.
+perq		768	768	mp1w	Ray-traced Perq ad.
+peter		678	799	me	Peter Gabriel.
+phoenix		576	454	CCC*	Line drawing of phoenix.
+phone		64	48	Sun	A telephone.
+phone2		64	64	TomC	Another telephone.
+picard_yar	960	600	GIF*	Jean-Luc and Tasha.
+pickup		1024	700	hue	A large-wheeled pickup truck.
+pil		128	128	allynh	The logo of Public Image Ltd.
+pinkfld		640	400	GIF*	The postcard from the Dark Side of the Moon LP.
+pipe_maze	576	720	HO'P	A maze of plumbing.
+pipes		100	100	me	Plumbing background.  Wraps around.
+plumbing	331	278	HO'P	The parts uses to create pipe_maze.
+pogo		264	373	schwrtz	Scanned from The Puce Stamp Catalog.
+poohbear	209	223	GIF*	Winnie the Pooh.
+popart		576	454	CCC	Abstract.
+porky		242	353	schwrtz	Scanned from The Puce Stamp Catalog.
+porsche928	1152	720	GIF*	A Porsche 928.
+porsche930	1024	700	hue	A Porsche 930.
+pot		90	90	Engel	A marijuana leaf.
+prisoner	195	203	Riggle	The penny-farthing bicycle.
+procession	491	674	HO'P	Escher's "Procession".
+quantum		393	378	me	The quantum mechanic from "Science Made Stupid".
+quasi_circle	1152	900	greg	A "quasi-circle" -- a very convoluted closed curve.
+rap		218	63	HO'P*	RAP.
+rapanui		627	564	me	Easter Island scene.
+rato		116	146	HO'P*	El Rato de el Paso.
+reagan		442	402	mugs*	Ronald Wilson Reagan.
+reagan2		444	616	Ship	A somewhat less serious portrait.
+reagan3		425	684	Haeber	A better version of reagan2.
+reagan4		900	900	GIF*	The Great Communicator.
+realeye		112	75	???	A human eye.  Good looking, too.
+redarrow	960	600	GIF*	Some frogs.
+redrock		1152	720	GIF*	A wilderness scene.
+reflect		483	691	Ship*	Escher's "Hand With Reflecting Globe".
+relativity	576	546	mp1w	M. C. Escher's "Relativity".
+reptiles	485	407	mp1w	M. C. Escher's "Reptiles".
+rhine		1024	808	Xerox	A village scene on the Rhine.
+rick_hunter	500	400	GIF*	Lt. Rick Hunter, from Macross.
+riemann		226	256	mugs*	Georg Friedrich Bernhard Riemann.
+rlogin		74	52	me	An rlogin icon.
+rn		48	48	Leres	A blowtorch.
+rn2		64	64	Ship	Another rn icon.
+roadrunner	79	106	LaFerl*	"BEEP BEEP!!!"
+robot		960	600	GIF*	"Warning, Will Robinson!  Danger!"
+rockets		1152	900	me	Rocket Garden, from "Dead Tech".
+roger		1152	720	GIF*	Welcome to Toon Town.
+rolex		64	64	TomC	A Rolex watch face.
+ronbo		576	720	xpix	A movie poster - Ronald Ronbo.
+rorschach	1152	590	me	Rorschach from "Watchmen".
+rose		382	469	me	A rose.  Extracted from a NeWS demo.
+rose2		32	32	HO'P*	Another rose.
+rpicalvin	512	470	xpix	More Calvin and Hobbes.
+run		256	49	Ship	Little running men.
+sabre		640	300	GIF*	An F-86 Sabre.
+sam_dredd	1152	900	Aitken	Dredd fighting a Samurai (2000AD).
+sanfrancisco	1152	900	GIF*	San Francisco postcard.
+sanka		1152	828	GIF*	A Sanka commercial.
+saturn		800	600	???	A montage of Voyager II pictures.
+saturnV		960	600	GIF*	A Saturn V on the launch pad.
+scarabs		520	351	xmac	A pair of dung-beetles.
+scooby		334	415	GIF*	Scooby-dooby-do!
+scorpion	576	450	xmac	A nice drawing of a nasty crustacean.
+scrooge		576	720	xpix	Scrooge McDuck.
+sea		960	600	GIF*	A sea scene.
+sequent		48	48	rlb	Sequent Computer Systems logo.
+shapes		100	100	me	A geometric shapes background.
+shin		416	440	RPI	A cartoon character.
+shin2		640	480	WPI	Shin [AREA 88]
+shred		209	221	ilsa*	Logo from SHRED magazine.
+shuttle		640	480	MLM	space shuttle piggybacked on a 747
+sick_cow	1152	900	Aitken	Cows at a barbecue - Larson.
+sinatra		514	452	mugs*	Frank Sinatra.
+skull		1152	900	Tait	CAT scan slice of a human skull
+skull1		576	720	xpix	An anatomical drawing of a skull.
+skull2		576	720	xmac	An anatomical drawing of a skull.
+skull3		87	109	HO'P*	A skull.
+skulls		281	183	HO'P*	A bunch of skulls.
+skyandwater1	635	631	me	Escher's "Sky and Water 1".
+slime_mold	488	702	HO'P	Abstract.
+slug		60	40	daryl	U.C. Santa Cruz logo.
+smallmoon	256	256	Xerox	The moon.
+smiley		36	36	me	A smiley-face.
+smiley2		16	16	Ship	Another smiley-face.
+smurftan	490	314	GIF*	How smurfs get blue.
+snail1		599	405	me	A bunch of snails.
+snail2		500	647	me	A sectioned nautilus.
+snow		1152	900	Aitken	Snow White with Seven Dwarves.
+software_eng	771	900	Sun*	A bit-juggler.
+solarball	1152	900	mp1w	Ray-traced globes scene.
+sp245		732	720	???	Southern Pacific locomotive 245.
+speedracer	640	400	GIF*	Go, Speed Racer!
+sphere		146	146	Xerox	A sphere.  This is one of the oldest bitmaps around -- I saw it in 1974.
+sphere2		57	56	HO'P*	Another sphere.
+sphere3		82	81	HO'P*	Another sphere.
+spock		512	342	xpix*	Mr. Spock.
+spock2		305	329	Ship	Spock's face.
+spock3		500	392	GIF*	Another Mr. Spock.
+spock4		488	642	GIF*	Mr. Spock.
+spock5		420	392	GIF*	Mr. Spock.
+spock6		1152	900	Aitken	Mr. Spock looking "fascinated".
+spock7		531	651	mp1w	Yet another Mr. Spock.
+spockirk	960	600	GIF*	Spock and Kirk.
+spotty		64	64	dpz	A spotty background.
+sq_tunnel	576	454	CCC	Abstract.
+stairs		420	695	me	Escher's "House of Stairs".
+stanford1	208	216	Xfont	A Stanford logo.
+stanford2	128	216	Xfont	Another Stanford logo.
+stars		1152	900	Berk	A star-field.
+startrek	512	342	xpix*	McCoy, Kirk, and Spock.
+steinheim	1024	808	Berk	A haunted castle.
+stopsign	64	64	DCM	A stop sign.
+stpeter		1152	900	me	Escher's "St. Peter, Rome".
+strawberry	35	32	DCM	A strawberry.  See bananas and cherries.
+sun		64	64	Sun	A Sun logo icon.
+sun2		25	25	Ship	Another Sun logo.
+sun3		32	32	Ship	Yet another Sun logo.
+sun4		1152	900	Sun	A VERY LARGE Sun logo.
+sunicons/*	64	64	rice	27 icons from the sun-icons collection.
+swamp1		1154	854	Aitken	Swamp Thing angry from SOST #23(?).
+swamp2		1152	900	Aitken	Swamp Thing "arising" from SOST #25(?).
+swiss		64	64	TomC	A swiss army knife.
+sybasesnail1	35	56	me	Sybase logo.
+sybasesnail2	56	90	me	Sybase logo.
+sybasesnail3	69	111	me	Sybase logo.
+sybasesnail4	111	179	me	Sybase logo.
+talk		64	64	Ship	A "talk" icon.
+talking		576	454	CCC	Talking Heads logo.
+tallship	540	350	GIF*	A three-masted ship of the line.
+tapecover1	298	276	HO'P	Tape label: abstract.
+tapecover10	283	267	HO'P	Tape label: abstract.
+tapecover11	283	267	HO'P	Tape label: abstract.
+tapecover12	283	267	HO'P	Tape label: petroglyphs.
+tapecover13	285	265	HO'P	Tape label: mandala / pretty cool.
+tapecover14	283	268	HO'P	Tape label: abstract / eye / branches.
+tapecover15	285	265	HO'P	Tape label: skull / Grateful Dead.
+tapecover16	283	268	HO'P	Tape label: skulls / Grateful Dead.
+tapecover17	285	265	HO'P	Tape label: mesh / Fuji.
+tapecover18	283	265	HO'P	Tape label: mesh / snakes.
+tapecover19	285	265	HO'P	Tape label: tunnel.
+tapecover2	298	276	HO'P	Tape label: mandala / zap.
+tapecover20	283	267	HO'P	Tape label: abstract.
+tapecover21	285	265	HO'P	Tape label: El Rato de El Paso.
+tapecover22	285	265	HO'P	Tape label: man smoking / Grateful Dead.
+tapecover23	285	265	HO'P	Tape label: Sacred Chao / snake / eye.
+tapecover24	283	267	HO'P	Tape label: shapes / eye.
+tapecover25	285	265	HO'P	Tape label: Weeping Beatnik.
+tapecover26	283	267	HO'P	Tape label: abstract.
+tapecover27	285	265	HO'P	Tape label: three-D / eye.
+tapecover28	283	267	HO'P	Tape label: moon ghost / zap.
+tapecover29	283	267	HO'P	Tape label: "Tape" / "DOLBY".
+tapecover3	282	266	HO'P	Tape label: ball & shadow & spot.
+tapecover30	283	267	HO'P	Tape label: ribbons / "TAPE".
+tapecover31	285	265	HO'P	Tape label: HO'P Sampler 1987.
+tapecover32	285	265	HO'P	Tape label: "RAP I".
+tapecover4	283	267	HO'P	Tape label: rose / "DEAD".
+tapecover5	282	267	HO'P	Tape label: "mUSIc".
+tapecover6	282	267	HO'P	Tape label: crystal domains.
+tapecover7	283	267	HO'P	Tape label: stuzzy waves / zap.
+tapecover8	283	267	HO'P	Tape label: Grateful Dead.
+tapecover9	283	267	HO'P	Tape label: ribbons / Grateful Dead.
+tardis		72	116	Riggle	A London police box.
+tb2_1		1152	900	Aitken	Thunderbird 2 - Gerry Anderson.
+tb2_2		1248	877	Aitken	Another view of Thunderbird 2.
+teddy_bear	1152	1024	mp1w	A teddy bear.
+tek		64	64	TomC	A graphics terminal icon.
+telnet		74	52	me	A telnet icon.
+ten		661	285	mp1w	A ten-dollar bill.
+tennis		320	240	WPI	two anime tennis players [MACROSS?]
+thing		576	720	xpix	A very *nasty* thing.
+three_worlds	512	356	xmac	Escher's "Three Worlds".
+thumbprint	438	687	me	My right thumbprint.
+thumper		420	390	GIF*	Thumper the rabbit.
+tidings		576	720	xpix	Shareware clipart.
+tiffany		830	744	Xerox	Generic female face.
+timex		64	64	Leres	A slightly-modified clock face.
+tinymoon	65	64	me	Very small moon, converted from my phoon program.
+tip		74	52	me	A tip icon.
+tmi1		1144	756	me	Three Mile Island, from "Dead Tech".
+tmi2		596	900	me	Three Mile Island, from "Dead Tech".
+tompetty	653	900	PMA	Tom Petty.
+tongue		16	16	me	A very small tongue.
+toucan		1152	717	GIF*	A toucan.
+touchup/*	*	*	touch	Various bitmaps a raster editor.
+train1		392	280	xpix*	A steam engine.
+trek		60	34	Sun	A small Starship Enterprise.
+treman		1024	808	???	Treman Falls.
+triangle	173	151	me	The impossible triangle.
+tty		64	64	DCM	A dumb-terminal icon.
+tvc15		576	454	CCC	Abstract.
+tweety		80	112	gandalf	Tweety-pie.
+tweety2		355	347	GIF*	"I tot I taw a puddy-tat!"
+two_fishes	576	576	HO'P	Abstract based on yin-yang.
+twodollar	1024	808	Xerox	A two-dollar bill.
+twofish		414	458	russ	Two tropical fishies.
+u2		1152	900	???	U2.
+u2_big		1600	1280	???	A bigger U2.
+ucseal		240	229	???	University of California seal.
+underground1	303	246	me	The London Underground's logo.
+unicorn		120	150	Quisp	A unicorn.
+unicorn2	567	653	mp1w	A unicorn.
+unixman		64	192	cw	A unix fan.
+uwmadison	48	48	Cohrs	Logo for UW-Madison.
+valentine	100	100	Ship	A valentine.
+valkyrie	576	432	WPI*	VF-4 Valkyrie fighter [MACROSS]
+vanna		576	720	xpix	The Amazing Vanna White.
+vanna2		337	477	xpix*	The Amazing Vanna White again.
+venn		576	454	CCC	Venn-diagram abstraction.
+venus		1152	699	GIF*	Venus on the half-shell.
+veretek		332	506	Ship	A GoBot, I suppose.
+veritech	350	450	WPI	Valkyrie in Battloid mode [MACROSS]
+verybigmark	1152	900	MarkW	Mark Weiser's VERY LARGE face.
+virgil		1152	900	Aitken	Virgil Tracy from Thunderbird 1.
+vt100		64	64	TomC	A VT100 icon.
+vt102		64	64	TomC	A VT102 icon.
+vt220		64	64	TomC	A VT220 icon.
+vtube		50	70	Engel	A vacuum tube.
+washington	288	333	GIF*	George Washington, cut from the $1 bill.
+watchmen	1152	900	Aitken	The "Watchmen" smiley-face.
+waterfall	576	720	xmac	Based on Escher's "Waterfall".
+waterfall2	456	584	mp1w	M. C. Escher's "Waterfall".
+waves1		100	100	me	A wavy background.
+waves2		100	100	me	Another wavy background.
+weirdscience	576	454	CCC	Abstract.
+wesley		1152	900	GIF*	A full-screen image of Wesley Crusher, for your defacing pleasure.
+whitedragon	856	900	GIF*	Cover from McCafferey's book.
+wild_things	1152	900	mp1w	"Where the Wild Things Are".
+wizards		540	700	GIF*	From Bakshi's movie.
+wizpic		576	576	mp1w	A wizard.
+womanwithban	576	454	CCC	Utterly abstract.
+woodduck	528	671	xmac	A nice duck drawing.
+working		322	69	DCM	"Working..."
+wrath_head	247	272	Ship	A nasty-looking head.
+wring		576	454	CCC*	A write ring.
+write_file	76	87	Ship	Clearly devolved.
+wrwatch		512	342	xpix*	A stopwatch.
+xconq		32	32	mp1w	Icon for xconq.
+xerox		573	154	Xerox	The Xerox logo.
+xim		100	100	phils	Icon for xim - looks like a slide.
+xmille		60	80	mp1w	Mille Bournes icon.
+xrn		50	50	xrn	The xrn icon.
+xterm		74	52	me	An xterm icon.
+xwander/*	*	*	cuddy	40 bitmaps from the xwanderer game.
+yafa		183	116	Caro	The Yafa logo.
+yamaha2		1024	700	hue	A racing motorcycle.
+yamato		576	454	CCC	Japanese phrase.
+yellowpages	64	64	Sun	Let your fingers do the walking.
+yield		48	48	DCM	A yield sign.
+yin_yang1	98	98	Xerox	Yin and Yang.
+yin_yang2	576	454	CCC	Yin and Yang.
+yoda		135	218	Xerox	Ah, Yoda you seek.  Powerful Jedi is he.
+yoda2		78	55	DCM	Another Yoda.
+yogi		640	400	GIF*	Smarter than the average bear.
+yosemite	1152	900	Berk	Yosemite valley.
+yoyodyne	288	288	me	YOYODYNE Propulsion Systems.
+yuri1		512	512	RPI	A cartoon character.
+yuri2		512	512	RPI	A cartoon character.
+yuri3		489	644	RPI	A cartoon character.
+z_gundam	576	432	WPI*	Zeta Gundam [ZETA GUNDAM]
+zapata		576	454	xpix*	A running shoe.
+zebragrl	576	720	xpix	By Olivia deBerardinis.
+zeta_logo	794	446	Okamoto	logo from [ZETA GUNDAM]
+zip		48	52	DCM	U.S. Postal Service logo.
+zippy		466	410	mugs*	Zippy the Pinhead.
+zonk		385	422	mp1w	Zonker Harris, from Doonesbury.
+
+The code for the origin column is as follows:
+
+    xpix = from the xpix collection of Seth Finkelstein, Project Athena
+    CCC = Concourse Computer Center, via xpix
+    RPI = Rensselaer Prophylactic Institute
+    me = Jef Poskanzer
+    GIF = converted to monochrome from one of the anonymous FTP GIF archives
+    HO'P = Harold Poskanzer
+    Xerox = from various people at Xerox
+    xmac = from Patrick Naughton's xmac collection
+    Berk = from the xbackgrounds collection on ucbvax.Berkeley.Edu
+    mugs = from the mugshots subdirectory of xpix
+    Ship = from Peter Shipley of UC Berkeley
+    DCM = from DC Martin of UC Berkeley
+    Sun = from the Sun icon library
+    rice = from the sun-icons directory on titan.rice.edu
+    TomC = Thomas Clodfelter of JPL
+    Xfont = extracted from a font in the X.V11R2 release
+    Leres = Craig Leres of the Lawrence Berkeley Lab
+    phils = Philip R. Thompson of MIT
+    Caro = Perry Caro, then of Xerox
+    Riggle = David Riggle, then of Xerox
+    Hains = Chuck Hains of Xerox
+    Shein = Barry Shein
+    Millik = Walter Milliken
+    LaFerl = Robert LaFerla
+    frank = frank@lands.CED.Berkeley.EDU
+    Onions = Julian Onions of Nottingham University
+    Train = Douglas Trainor of UCLA
+    lmjm = Lee McLoughlin
+    cw = Chris Walters
+    dpz = David P. Zimmerman
+    wyle = Mitchell Wyle
+    rlb = Bob Brown
+    supoj = Supoj Sutanthavibul of UTexas
+    gandalf = Juergen "Gandalf" Wagner, CSLI, Stanford
+    xsol = from David Lemke's xsol game, but he got them from somewhere else
+    touch = from Raymond Kreisel's "touchup" raster editor
+    urban = Mike Urban
+    Quisp = Keith MacKay
+    Cohrs = Dave Cohrs of UW-Madison
+    other = see comments
+    Colum = Columbia University in the City of New York
+    Haeber = Paul Haeberli of SGI
+    xrn = from the xrn program of Ellen Sentovich and Rick Spickelmier
+    cuddy = Mike Cuddy
+    daryl = Daryl Odnert
+    russ = Russell Sutherland, University of Toronto
+    richb = Rich Burridge, Sun Microsystems Australia
+    allynh = Allyn Hardyck of UC Berkeley
+    MarkW = Mark Weiser, then of UMCP
+    SDH = Stephen D. Hawley of Bellcore
+    Lindsay = Lindsay Marshall
+    Engel = Sean Philip Engelson of Yale
+    Aoki = Paul Aoki of UC Berkeley
+    allynh = Allyn Hardyck of UC Berkeley
+    hue = Jonathan Hue
+    greg = Greg Kuperberg of UC Berkeley
+    geb = Gary E. Barnes
+    Idraw = idraw distribution <lurch.stanford.edu>
+    Hope = Mike Jipping <jipping@cs.hope.edu>
+    AStuff = ANIME STUFF electronic magazine <jg2f+@andrew.cmu.edu>
+    WPI = WPI anime GIF archive <dseah@wpi.wpi.edu>
+    Okamoto = Jeff Okamoto <okamoto@hpccc.hp.com>
+    MLM = Michael L. Mauldin <mlm@nl.cs.cmu.edu>
+    PMA = Paul M. Aoki <aoki@postgres.berkeley.edu>
+    Tait = W. Cyrus Tait <cyrus@pprg.unm.edu>
+    Aitken = Jummy Aitkey on Pyramid Ltd.
+    mp1w = from the collection of Marc Russell Pawliger <mp1w+@andrew.cmu.edu>
+    kinzler = Stephen Kinzler <kinzler@iuvax.cs.indiana.edu>
+    ilsa = Ilsa VanHook <ilsa@well.sf.ca.us>
+    marti = Marti Hearst <marti@postgres.Berkeley.Edu>
+    djones = Dave Jones <djones@megatest>
+    jonnyg = Jonathan Roger Greenblatt <jonnyg@rover.umd.edu>
+    schwrtz = Michael Schwartz <schwartz@MMITI1.den.mmc.com>
+    kendy = Ken Dye <kendy@ism780c.ics.com>
+    ??? = unknown
+    <xxx>* = the star indicates I touched it up a bit or two
+    <xxx>** = two stars means it was touched up by George W. Phillips
+
+
+NOTE: The following copyright notice applies to the images from AStuff:
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ANIME STUFF Copyright (C) 1989 Tom Mitchell & MIDORI COMMUNICATIONS
+All rights reserved.
+This publication originally appears on CompuServe Information Service's
+Comic Book & Animation Forum.
+USENET distribution rights belong exclusively to Jude George.
+USENET Address : jg2f@andrew.cmu.edu
+
+Original Copyrights to the material reviewed, articles written and
+graphics presented are reserved by their respective owners. The contents
+of Anime Stuff may be reproduced in any form of media so long as the names
+of the authors are preserved, articles remain intact, and  ANIME STUFF is
+mentioned as the source.
+
+Articles & computer artwork in Anime Stuff may be re-published in
+newsletters so long as a copy of the publication in which the articles
+appear are sent to:
+
+MIDORI COMMUNICATIONS
+c/o Tom Mitchell
+474 Chowning Circle
+Dayton, OHIO 45429
